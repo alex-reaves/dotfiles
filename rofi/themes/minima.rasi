@@ -1,0 +1,154 @@
+/*
+Stolen from https://github.com/amayer5125/nord-rofi
+*/
+
+* {
+    minima0: #303236;
+    minima1: #3c3f44;
+    minima2: #46494e;
+    minima3: #54585f;
+    minima4: #ecf1f9;
+    minima5: #ecf1f9;
+    minima6: #ecf1f9;
+    minima7: #9bf6ff;
+    minima8: #9ec3ff;
+    minima9: #bdb2ff;
+    minima10: #ffc6ff;
+    minima11: #ffadad;
+    minima12: #ffd6a5;
+    minima13: #fdffb6;
+    minima14: #caffbf;
+    minima15: #bdb2ff;
+
+    spacing: 2;
+    background-color: var(minima1);
+
+    background: var(minima1);
+    foreground: var(minima4);
+
+    normal-background: var(background);
+    normal-foreground: var(foreground);
+    alternate-normal-background: var(background);
+    alternate-normal-foreground: var(foreground);
+    selected-normal-background: var(minima8);
+    selected-normal-foreground: var(background);
+
+    active-background: var(background);
+    active-foreground: var(minima10);
+    alternate-active-background: var(background);
+    alternate-active-foreground: var(minima10);
+    selected-active-background: var(minima10);
+    selected-active-foreground: var(background);
+
+    urgent-background: var(background);
+    urgent-foreground: var(minima11);
+    alternate-urgent-background: var(background);
+    alternate-urgent-foreground: var(minima11);
+    selected-urgent-background: var(minima11);
+    selected-urgent-foreground: var(background);
+}
+element {
+    padding: 0px 0px 0px 7px;
+    spacing: 5px;
+    border:  0;
+    cursor:  pointer;
+}
+element normal.normal {
+    background-color: var(normal-background);
+    text-color: var(normal-foreground);
+}
+element normal.urgent {
+    background-color: var(urgent-background);
+    text-color: var(urgent-foreground);
+}
+element normal.active {
+    background-color: var(active-background);
+    text-color: var(active-foreground);
+}
+element selected.normal {
+    background-color: var(selected-normal-background);
+    text-color: var(selected-normal-foreground);
+}
+element selected.urgent {
+    background-color: var(selected-urgent-background);
+    text-color: var(selected-urgent-foreground);
+}
+element selected.active {
+    background-color: var(selected-active-background);
+    text-color: var(selected-active-foreground);
+}
+element alternate.normal {
+    background-color: var(alternate-normal-background);
+    text-color: var(alternate-normal-foreground);
+}
+element alternate.urgent {
+    background-color: var(alternate-urgent-background);
+    text-color: var(alternate-urgent-foreground);
+}
+element alternate.active {
+    background-color: var(alternate-active-background);
+    text-color: var(alternate-active-foreground);
+}
+element-text {
+    background-color: rgba(0, 0, 0, 0%);
+    text-color: inherit;
+    highlight: inherit;
+    cursor: inherit;
+    /* font-family: Noto Sans Mono 16; */
+}
+element-icon {
+    background-color: rgba(0, 0, 0, 0%);
+    size: 1.0000em;
+    text-color: inherit;
+    cursor: inherit;
+}
+window {
+    padding: 0;
+    border: 0;
+    background-color: var(background);
+}
+mainbox {
+    padding: 0;
+    border: 0;
+}
+message {
+    margin: 0px 7px;
+}
+textbox {
+    text-color: var(foreground);
+}
+listview {
+    margin: 0px 0px 5px;
+    scrollbar: true;
+    spacing: 2px;
+    fixed-height: 0;
+}
+scrollbar {
+    padding: 0;
+    handle-width: 14px;
+    border: 0;
+    handle-color: var(minima3);
+}
+button {
+    spacing: 0;
+    text-color: var(normal-foreground);
+    cursor: pointer;
+}
+button selected {
+    background-color: var(selected-normal-background);
+    text-color: var(selected-normal-foreground);
+}
+inputbar {
+    padding: 7px;
+    margin: 7px;
+    spacing: 0;
+    text-color: var(normal-foreground);
+    background-color: var(minima3);
+    children: [ entry ];
+}
+entry {
+    spacing: 0;
+    cursor: text;
+    text-color: var(normal-foreground);
+    background-color: var(minima3);
+}
