@@ -1,4 +1,3 @@
-# dotfiles
+# dotfiles: miscellaneous
 
-Welcome! This is the main branch. Other branches:
-- {Placeholder}
+The home for config files that aren't a part of a project. Horrors lurk here, beware...
