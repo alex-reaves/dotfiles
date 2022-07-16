@@ -1,4 +1,7 @@
-# dotfiles
+# dotfiles: Pop!_OS
 
-Welcome! This is the main branch. Other branches:
+Welcome to the Pop!_OS branch.
+- {Placeholder}
+
+## Contents
 - {Placeholder}
