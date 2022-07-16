@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# This script:
-# 1: Runs `install.sh`
-# 2: Runs `configure.sh`
+if [ "$EUID" -ne 0 ]
+	then echo "Root is required."
+	exit
+fi
 
 sudo ./install.sh && sudo ./configure.sh
