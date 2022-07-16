@@ -8,7 +8,7 @@ Welcome to the Pop!_OS branch. Other branches:
 
 ## Contents
 
-- `configure.sh`: A script to set up the desktop. It runs:
+- `setup.sh`: A script to set up the desktop. It runs:
 	1. `install.sh`: Installs packages & projects.
 		- Packages:
       		- `gnome-session` (vanilla gnome)
@@ -16,4 +16,4 @@ Welcome to the Pop!_OS branch. Other branches:
 		- Projects:
 			- [Firefox GNOME Theme](https://github.com/rafaelmardojai/firefox-gnome-theme)
 			- {TODO}
-	2. `setup.sh`: Sets up packages & projects.
+	2. `configure.sh`: Sets up packages & projects.
