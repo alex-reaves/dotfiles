@@ -35,5 +35,6 @@ EXTENSIONS=[
 	"Espresso",
 	"Just Perfection",
 	"Gesture Improvements",
-	"Clipboard History"
+	"Clipboard History",
+	"Launch new instance"
 ]
