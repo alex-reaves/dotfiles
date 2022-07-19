@@ -1,7 +1,7 @@
 # dotfiles: Pop!_OS
 
 ![Screenshot of my desktop](assets/Pop!_OS.png)
-[Install guide](INSTALL.md) | [TODO](TODO)
+[Install guide](INSTALL.md) | [TODO](TODO.md)
 
 Welcome to the Pop!_OS branch. Other branches:
 - Main: https://alex-reaves/dotfiles/
