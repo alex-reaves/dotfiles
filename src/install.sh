@@ -3,6 +3,7 @@
 # This script:
 # 1. Installs necessary packages
 # 2. Clones projects from github and moves them to desired location
+# 3. Installs GNOME shell extensions
 
 if [ "$EUID" -ne 0 ]
 	then echo "Root is required."
@@ -28,3 +29,11 @@ tar -xf adw-gtk3"$ADWGTKVER".tar.xz
 mkdir -p .local/share/themes
 mv adw-gtk3 .local/share/themes
 mv adw-gtk3-dark .local/share/themes
+
+# 3.
+EXTENSIONS=[
+	"Espresso",
+	"Just Perfection",
+	"Gesture Improvements",
+	"Clipboard History"
+]
