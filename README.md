@@ -1,4 +1,6 @@
 # dotfiles
 
 Welcome! This is the main branch. Other branches:
-- {Placeholder}
+
+- [miscellaneous](https://github.com/alex-ahr/dotfiles/tree/miscellaneous)
+- [Pop!_OS](https://github.com/alex-ahr/dotfiles/tree/Pop!_OS)
